@@ -9,14 +9,14 @@ import Image from 'next/image'
 function Header() {
     const header = landingPageData.hero
   return (
-    <header className=''>
+    <header className='mb-12 relative'>
       <Nav />
       <div className=" grid lg:grid-cols-3 items-center">
         <div className='space-y-12 col-span-1'>
           <h1 className="text-6xl font-bold text-primary ">
            {header.title}
           </h1>
-          <p className='text-sm font-medium text-primary'>
+          <p className='text-lg font-medium text-primary'>
             {header.description}
           </p>
           <Btn label={'Sign up'} className={`py-3.5 px-8`} />
@@ -25,7 +25,7 @@ function Header() {
             <Image src={header.image} alt='hero' width={800} height={800}  />
         </div>
       </div>
-      <div className='-mt-32 w-[70%] mx-auto bg-secondary rounded-lg py-12 px-2.5 flex justify-around'>
+      <div className='-mt-32 w-[70%] mx-auto bg-secondary rounded-lg py-12 px-2.5 flex justify-around absolute left-[15%] bottom-12'>
         <div className='relative'>
             <input 
                 type="text" 

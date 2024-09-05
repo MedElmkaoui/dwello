@@ -1,3 +1,4 @@
+import { title } from "process";
 
 export const landingPageData = {
     "header": {
@@ -32,6 +33,25 @@ export const landingPageData = {
         },
         "button": "Sign up",
         "image": "/image/hero.png"
+    },
+    "about" : {
+        'image' : "/image/about.png",
+        'title': "We Help You To Find Your Dream Home",
+        "description" : "From cozy cottages to luxurious estates, our dedicated team guides you through every step of the journey, ensuring your dream home becomes a reality",
+        "statstics":[
+            {
+                "number" : "8K+",
+                "label" : 'Houses Available'
+            },
+            {
+                "number" : "6K+",
+                "label" : 'Houses Sold'
+            },
+            {
+                "number" : "2K+",
+                "label" : 'Trusted Agents'
+            },
+        ]
     },
     "featuredProperties": {
       "title": "Featured Properties",
@@ -74,28 +94,55 @@ export const landingPageData = {
     },
     "whyChooseUs": {
       "title": "Why Choose Us",
+      "subTitle" : "Elevating Your Home Buying Experience with Expertise, Integrity, and Unmatched Personalized Service",
       "reasons": [
         {
-          "icon": "house-icon",
+          "icon": "/icon/house.png",
           "title": "Wide Range of Properties",
           "description": "We offer a diverse selection of homes to suit every need and budget."
         },
         {
-          "icon": "shield-icon",
+          "icon": "/icon/shield.png",
           "title": "Trusted by Thousands",
           "description": "Our proven track record of satisfied clients speaks for itself."
         },
         {
-          "icon": "24-7-icon",
+          "icon": "/icon/24-7.png",
           "title": "Financing Made Easy",
           "description": "We work with top lenders to get you the best rates and terms."
         },
         {
-          "icon": "handshake-icon",
+          "icon": "/icon/handshake.png",
           "title": "Expert Agents",
           "description": "Our experienced team guides you through every step of the process."
         }
       ]
+    },
+    "popular" : {
+        'title' : 'Our Popular Residences',
+        "residences" : [
+            {
+                'image' : '/image/r01.png',
+                'location' : 'San Francisco, California',
+                'rooms' : '4',
+                'eria' : "3.500",
+                'price' : '$2,500,000'
+            },
+            {
+                'image' : '/image/r02.png',
+                'location' : 'Beverly Hills, California',
+                'rooms' : '3',
+                'eria' : "1.500",
+                'price' : '$850,000'
+            },
+            {
+                'image' : '/image/r03.png',
+                'location' : 'Palo Alto, California',
+                'rooms' : '6',
+                'eria' : "4.000",
+                'price' : '$3,700,000'
+            },
+        ]
     },
     "topAgents": {
       "title": "Top Agents",
