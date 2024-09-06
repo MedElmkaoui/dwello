@@ -8,7 +8,7 @@ function WhyUs() {
     <div className='my-12 felx flex-col items-center space-y-8'>
        <div className='flex flex-col items-center gap-3.5'>
             <h1 className='text-center text-4xl text-primary font-bold'>{whyUs.title}</h1>
-            <span className='w-[50%] text-center text-primary w-'>{whyUs.subTitle}</span>
+            <span className='md:w-[50%] text-sm lg:text-lg text-center text-primary w-'>{whyUs.subTitle}</span>
        </div>
        <div className='grid lg:grid-cols-4 gap-5 justify-between'>
         {

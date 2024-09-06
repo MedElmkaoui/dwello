@@ -17,9 +17,9 @@ function Popular() {
                             alt='image'
                             width={450}
                             height={150}
-                            className='rounded-t-2xl'
+                            className='rounded-t-2xl w-[100%]'
                         />
-                        <div className='p-6 space-y-5'>
+                        <div className='p-6 space-y-8'>
                             <div className='flex gap-3.5'>
                                 <Image
                                     src={'/icon/location-1.png'}
@@ -53,7 +53,7 @@ function Popular() {
                                 </div>
                             </div>
                             <div className='flex justify-between items-center'>
-                                <Btn label='Sing up' />
+                                <Btn label='Sing up' className='py-2.5' />
                                 <h2 className='text-xl text-primary font-bold'>{ele.price}</h2>
                             </div>
                         </div>

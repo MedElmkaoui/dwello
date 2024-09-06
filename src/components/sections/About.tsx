@@ -5,17 +5,18 @@ import React from 'react'
 function About() {
     const aboutData = landingPageData.about
   return (
-    <div className='mt-24 mb-12 grid lg:grid-cols-2 justify-between'>
+    <div className='mt-24 mb-12 grid lg:grid-cols-2 gap-8 justify-between'>
       <div>
         <Image
             src={aboutData.image}
             alt='About'
             width={550}
             height={550}
+            className=''
         />
       </div>
       <div className='space-y-8'>
-        <h1 className='text-primary font-bold xl:text-5xl'>
+        <h1 className='text-primary font-bold text-2xl xl:text-5xl'>
             {aboutData.title}
         </h1>
         <p className='text-primary font-bold '>
