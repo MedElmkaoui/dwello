@@ -27,7 +27,7 @@ function About() {
                 aboutData.statstics.map((ele)=> (
                     <div key={ele.label} className='flex flex-col'>
                         <span className='xl:text-3xl font-bold text-primary'>{ele.number}</span>
-                        <span className='text-sm text-primary'>{ele.label}</span> 
+                        <span className='text-xs md:text-sm text-primary text-nowrap'>{ele.label}</span> 
                     </div>
                 ))
             }

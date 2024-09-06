@@ -243,15 +243,16 @@ export const landingPageData = {
           "title": "Services",
           "links": ["Buy a Home", "Sell a Home", "Rent a Home", "Real Estate Investments"]
         },
-        {
-          "title": "Contact Info",
-          "info": [
-            "123 Real Estate Street, Anytown, ST 12345",
-            "info@housy.com",
-            "+1 (555) 123-4567"
-          ]
-        }
+        
       ],
+      'info' :{
+        "title": "Contact Info",
+        "info": [
+          "123 Real Estate Street, Anytown, ST 12345",
+          "info@housy.com",
+          "+1 (555) 123-4567"
+        ]
+      },
       "copyright": "© 2024 Housy. All rights reserved."
     }
   }
