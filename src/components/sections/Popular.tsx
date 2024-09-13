@@ -6,7 +6,7 @@ import Btn from '../common/Btn'
 function Popular() {
     const popular = landingPageData.popular
   return (
-    <div className='my-12 space-y-12'>
+    <div id='pages' className='my-12 space-y-12'>
         <h1 className='text-4xl text-center font-bold text-primary'>{popular.title}</h1>
         <div className=' grid lg:grid-cols-3 gap-8'>
             {

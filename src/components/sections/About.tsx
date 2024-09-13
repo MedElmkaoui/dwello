@@ -5,7 +5,7 @@ import React from 'react'
 function About() {
     const aboutData = landingPageData.about
   return (
-    <div className='mt-24 mb-12 grid lg:grid-cols-2 gap-8 justify-between'>
+    <div id='about'  className='mt-24 mb-12 grid lg:grid-cols-2 gap-8 justify-between'>
       <div>
         <Image
             src={aboutData.image}

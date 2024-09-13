@@ -18,11 +18,11 @@ function Nav() {
 
         <ul className='hidden md:flex gap-8 items-center'>
             {
-                navData.navigation.map((navItem)=> (
-                    <li key={navItem} className='text-[15px] font-bold text-primary'>
-                        <Link href={`/${navItem}`}>
-                            {navItem}
-                        </Link>
+                navData.navigation.map(({label, link})=> (
+                    <li key={link} className='text-[15px] font-bold text-primary'>
+                        <a href={`${link}`}>
+                            {label}
+                        </a>
                     </li>
                 ) )
             }

@@ -5,7 +5,7 @@ import React from 'react'
 function WhyUs() {
     const whyUs = landingPageData.whyChooseUs
   return (
-    <div className='my-12 felx flex-col items-center space-y-8'>
+    <div id='properties'  className='my-12 felx flex-col items-center space-y-8'>
        <div className='flex flex-col items-center gap-3.5'>
             <h1 className='text-center text-4xl text-primary font-bold'>{whyUs.title}</h1>
             <span className='md:w-[50%] text-sm lg:text-lg text-center text-primary w-'>{whyUs.subTitle}</span>

@@ -4,11 +4,11 @@ export const landingPageData = {
     "header": {
       "logo": "/logo.png",
       "navigation": [
-        "Home",
-        "About",
-        "Properties",
-        "Pages",
-        "Contact"
+        {'label' : "Home" , link : "#home" },
+        {'label' : "About" , link : "#about" },
+        {'label' : "Properties" , link : "#properties" },
+        {'label' : "Pages" , link : "#pages" },
+        {'label' : "Contact" , link : "#contact" },
       ],
       "searchIcon": "/icon/search.png",
       "userIcon": "/icon/user.png",

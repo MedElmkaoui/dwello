@@ -6,7 +6,7 @@ import Btn from '../common/Btn'
 function CTA() {
     const cta = landingPageData.callToAction
   return (
-    <div className='my-24 text-primary flex flex-col  items-center space-y-8'>
+    <div id='contact' className='my-24 text-primary flex flex-col items-center space-y-8'>
         <h1 className='md:w-[50%] text-center text-5xl font-bold'>
             {cta.title}
         </h1>
