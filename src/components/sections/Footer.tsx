@@ -27,7 +27,7 @@ function Footer() {
                         <ul className='space-y-3 text-sm'>
                             {
                                 ele.links?.map((item)=> (
-                                    <li><Link  href={`/${item}`} >{item}</Link></li>
+                                    <li key={item}><Link  href={`/${item}`} >{item}</Link></li>
                                 ))
                             }
                             
