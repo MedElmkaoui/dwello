@@ -69,7 +69,7 @@ function Header() {
                   className='absolute right-3 top-3.5'
               />
           </div>
-          <Btn label={'Sign Up'} className='py-3.5' />
+          <Btn label={'Sign Up'} className='py-2.5' />
         </div>
       </div>
         
