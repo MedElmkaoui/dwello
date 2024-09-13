@@ -195,22 +195,41 @@ export const landingPageData = {
       ]
     },
     "testimonials": {
-      "title": "What People Are Saying",
+      "title": "What People Say About Dwello",
       "quotes": [
         {
           "text": "Housy made finding our dream home a breeze. Highly recommended!",
-          "author": "Sarah & Tom K."
+          "author": "Michael Rodriguez",
+          "city": "San Francisco",
+          'img' : '/image/t01.png',
+          'authorImg' : '/image/user01.png',
+          'rate' : '4.5'
         },
         {
-          "text": "Professional service from start to finish. We couldn't be happier.",
-          "author": "The Johnson Family"
-        }
+          "text": "Housy made finding our dream home a breeze. Highly recommended!",
+          "author": "Michael Rodriguez",
+          "city": "San Diego",
+          'img' : '/image/t02.png',
+          'authorImg' : '/image/user02.png',
+          'rate' : '4.5'
+        },
+        {
+          "text": "Housy made finding our dream home a breeze. Highly recommended!",
+          "author": "Michael Rodriguez",
+          "city": "Los Angeles",
+          'img' : '/image/t03.png',
+          'authorImg' : '/image/user03.png',
+          'rate' : '4.5'
+        },
       ]
     },
     "callToAction": {
-      "title": "Are You Ready for a Home?",
-      "subtitle": "Let's get started now!",
-      "button": "Contact Us"
+      "title": "Do You Have Any Questions? Get Help From Us",
+      "chatLive": "Chat live with our support team",
+      "faq": "Browse our FAQ",
+      'news' : {
+        'placeholder' : 'Enter your email address...',
+      }
     },
     "footer": {
       "logo": "Housy",
@@ -224,15 +243,16 @@ export const landingPageData = {
           "title": "Services",
           "links": ["Buy a Home", "Sell a Home", "Rent a Home", "Real Estate Investments"]
         },
-        {
-          "title": "Contact Info",
-          "info": [
-            "123 Real Estate Street, Anytown, ST 12345",
-            "info@housy.com",
-            "+1 (555) 123-4567"
-          ]
-        }
+        
       ],
+      'info' :{
+        "title": "Contact Info",
+        "info": [
+          "123 Real Estate Street, Anytown, ST 12345",
+          "info@housy.com",
+          "+1 (555) 123-4567"
+        ]
+      },
       "copyright": "© 2024 Housy. All rights reserved."
     }
   }
