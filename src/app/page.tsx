@@ -10,8 +10,6 @@ export default function Home() {
   return (
     <main className="w-[90%] lg:w-[80%] mx-auto overflow-clip">
       <Header />
-    <main className="w-[90%] lg:w-[80%] mx-auto ">
-      
       <About />
       <WhyUs />
       <Popular />
