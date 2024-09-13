@@ -21,8 +21,8 @@ function Footer() {
                 </p>
             </div>
             {
-                footer.sections.map((ele)=> ( 
-                    <div className='space-y-3.5'>
+                footer.sections.map((ele, idx)=> ( 
+                    <div key={idx} className='space-y-3.5'>
                         <h2 className='text-xl font-semibold'>{ele.title}</h2>
                         <ul className='space-y-3 text-sm'>
                             {
@@ -39,8 +39,8 @@ function Footer() {
                 <h2 className='text-xl font-semibold'>{footer.info.title}</h2>
                 <ul className='space-y-3 text-sm '>
                     {
-                        footer.info.info?.map((item)=> (
-                            <li><Link  href={`/${item}`} >{item}</Link></li>
+                        footer.info.info?.map((item, idx)=> (
+                            <li key={idx}><Link  href={`/${item}`} >{item}</Link></li>
                         ))
                     }        
                 </ul>

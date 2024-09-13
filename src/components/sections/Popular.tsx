@@ -10,8 +10,8 @@ function Popular() {
         <h1 className='text-4xl text-center font-bold text-primary'>{popular.title}</h1>
         <div className=' grid lg:grid-cols-3 gap-8'>
             {
-                popular.residences.map((ele)=> (
-                    <div className='bg-secondary rounded-2xl'>
+                popular.residences.map((ele, idx)=> (
+                    <div key={idx} className='bg-secondary rounded-2xl'>
                         <Image
                             src={ele.image}
                             alt='image'
